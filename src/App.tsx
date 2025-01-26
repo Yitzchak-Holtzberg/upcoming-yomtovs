@@ -1,4 +1,3 @@
-// src/App.tsx
 import React, {useEffect, useState} from 'react';
 import {Appbar, Provider as PaperProvider} from 'react-native-paper';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
@@ -24,7 +23,7 @@ function App() {
         );
         const data = await response.json();
         setYomTovs(data.items);
-        scheduleWeeklyReminder(data.items); // Call the reminder function
+        scheduleWeeklyReminder(data.items);
       } catch (error) {
         console.error('Error getting holidays: ' + error);
       }

@@ -1,4 +1,3 @@
-// src/utils/dateUtils.ts
 export function generateDaysUntil(date: string): string {
   const currentDate = new Date();
   const targetDate = new Date(date);

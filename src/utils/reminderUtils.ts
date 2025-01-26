@@ -1,4 +1,3 @@
-// src/utils/reminderUtils.ts
 import {Alert} from 'react-native';
 import {YomTov} from '../types/YomTov';
 
